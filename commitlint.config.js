@@ -17,6 +17,7 @@ export default {
                 'style',
                 'perf',
                 'revert',
+                'ci',
                 'ui',
                 'release',
             ],
