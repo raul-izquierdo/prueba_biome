@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "format:verify": "biome format",
-        "format:fix": "biome format -write",
+        "format:fix": "biome format --write",
         "lint:verify": "biome lint",
         "lint:fix": "biome lint --write",
         "format-and-lint:verify": "biome check",
