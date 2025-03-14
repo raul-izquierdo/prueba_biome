@@ -4,6 +4,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
+        "prepare": "hinstall.sh",
         "format:verify": "biome format",
         "format:fix": "biome format --write",
         "lint:verify": "biome lint",
