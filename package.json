@@ -8,8 +8,10 @@
         "format:fix": "biome format -write",
         "lint:verify": "biome lint",
         "lint:fix": "biome lint --write",
-        "all:verify": "biome check",
-        "all:fix": "biome check --write"
+        "format-and-lint:verify": "biome check",
+        "format-and-lint:fix": "biome check --write",
+        "format-and-lint:verify:staged": "biome check --staged",
+        "prepare": "husky"
     },
     "keywords": [],
     "author": "",
@@ -17,8 +19,8 @@
     "description": "",
     "devDependencies": {
         "@biomejs/biome": "1.9.4",
-        "lefthook": "^1.11.3",
         "@commitlint/cli": "^19.8.0",
-        "@commitlint/config-conventional": "^19.8.0"
+        "@commitlint/config-conventional": "^19.8.0",
+        "husky": "^9.1.7"
     }
 }
